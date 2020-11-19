@@ -27,7 +27,7 @@ html {
 body {
     margin: 0px;
     width: 100%;
-    max-width: 700px;
+    max-width: 750px;
     position: absolute;
     display: flex;
     flex-direction: column;

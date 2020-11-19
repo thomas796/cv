@@ -1,0 +1,124 @@
+@media all and (max-width: 715px) {
+
+    body {
+        width: 100%;
+        max-width: 800px;
+    }
+
+    header {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+    }
+
+    #photoProfil {
+        width: 155px;
+        height: 155px;
+        margin: 0px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 5px 5px rgb(204, 201, 201);
+    }
+    
+    #titleConteneur {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    #nameTitle {
+        margin: 0px;
+        width: 100%;
+        height: 50px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    
+    #subtitle {
+        width: 100%;
+        height: 50px;
+        margin: 0px;
+        text-align: center;
+    }
+    
+    #traitSubtitle {
+        border-top: 2px solid transparent;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: flex-start;
+        background-color: white;
+    }
+    
+    #trainingExperienceBlock {
+        width: 100%;
+    }
+
+    #userBlock {
+        width: 100%;
+        background-color: var(--mainColor);
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    
+    footer {
+        background-color: var(--mainColor);
+        width: 100%;
+        height: 220px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    #recommandationDesktop {
+        display: none;
+    }
+
+    #recommandationPhone {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+
+    #contactBlock {
+        margin-left: 0px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #skills {
+        height: 530px;
+        width: 300px;
+    }
+    
+    #aboutMe {
+        text-align: justify;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-bottom: 155px;
+        line-height: 15px;
+    }
+
+    #hobbiesBlock {
+        width: 100%;
+        height: 100px;
+        order: 1;
+    }
+
+
+} 

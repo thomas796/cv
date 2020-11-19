@@ -1,0 +1,278 @@
+
+
+header {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--mainColor);
+}
+
+#photoProfil {
+    width: 155px;
+    height: 155px;
+    margin-left: calc((30% - 155px) / 2);
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 5px rgb(204, 201, 201);
+}
+
+#titleConteneur {
+    background-color: white;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#nameTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    width: 100%;
+    margin-left: 35px;
+    margin-top: 35px;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+#nameTitleColor {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-size: 2rem;
+    font-weight: lighter;
+    color: var(--mainColor);
+}
+
+#subtitle {
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 35px;
+    font-size: 1.1rem;
+    color: var(--mainColor);
+    font-family: futura, Arial, Helvetica, sans-serif;
+}
+
+#traitSubtitle {
+    margin-left: 35px;
+    margin-top: 0px;
+    border-top: 2px solid var(--mainColor);
+    width: 50px;
+    height: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: white;
+}
+
+#trainingExperienceBlock {
+    width: 70%;
+    background-color: white;
+}
+
+.parcoursTitle {
+    border-bottom: 2px solid var(--mainColor);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 22px;
+}
+
+.trainingImage {
+    height: 22px;
+    width: 22px;
+    opacity: 0.8;
+}
+
+.trainingTitle {
+    margin: 0px;
+    line-height: 30px;
+    font-family: futura, Arial, Helvetica, sans-serif;
+    font-size: 0.98rem;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.experienceConteneur {
+    width: 100%;
+    margin-bottom: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.dateConteneur {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.record {
+    height: 7px;
+    width: 7px;
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+.dot {
+    height: 5px;
+    width: 5px;
+    margin-left: 35px;
+    margin-top: 5px;
+    border-radius: 50%;
+    background-color: var(--mainColor);
+}
+
+.dateLine {
+    display: flex;
+    flex-direction: column;
+}
+
+.date {
+    margin-left: 10px;
+    width: 70px;
+    line-height: 15px;
+    font-family: futura, Arial, Helvetica, sans-serif;
+    color: rgb(121, 109, 109);
+}
+
+.theExperience {
+    width: calc(100% - 80px - 25px - 35px - 35px);
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.experienceTitle {
+    margin: 0px;
+    font-size: 0.78rem;
+    font-family: futura, Arial, Helvetica, sans-serif;
+    color: rgb(121, 109, 109);
+}
+
+.experienceSubtitle {
+    margin: 0px;
+    margin-top: 4px;
+    font-size: 0.8rem;
+    color: rgb(121, 109, 109);
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: futura, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.description {
+    margin: 0px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+
+
+
+#userBlock {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: var(--mainColor);
+}
+
+
+
+#contactBlock {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#iconsContactBlock {
+    display: flex;
+    width: 35px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#dataContactBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.iconContact {
+    font-size: 15px;
+    color: white;
+    margin-top: 5px;
+}
+
+.contact {
+    text-align: left;
+    font-weight: 600;
+    margin: 0px;
+}
+
+
+#skills {
+    height: 530px;
+    width: 100%;
+    margin:0px;
+}
+
+.skill {
+    margin-top: 6px;
+    font-size: 0.8rem;
+}
+
+.skillTitle {
+    font-style: italic;
+    margin: 0px;
+    margin-top: 23px;
+    margin-left: -25px;
+    font-size: 0.85rem;
+}
+
+#hobbiesBlock {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+#hobbies {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    opacity: 0.8;
+}
+
+.iconHobbies {
+    font-size:25px;
+    color: white;
+    border: 2px solid white;
+    padding: 0.35em 0.2em;
+    border-radius: 50%;
+}
+
+.racketTennis {
+    padding: 0.35em;
+}

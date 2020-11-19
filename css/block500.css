@@ -1,0 +1,36 @@
+@media all and (max-width: 500px) {
+
+    .experienceConteneur {
+        width: 100%;
+        margin-bottom: 22px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    
+    .dateConteneur {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .dateLine {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+    }
+
+    .date:last-child {
+        width: 200px;
+        text-align: left;
+    }
+
+    .theExperience {
+        width: calc(100% - 80px);
+        margin-left: 40px;
+    }
+
+ 
+    
+}

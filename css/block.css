@@ -27,7 +27,7 @@ header {
 }
 
 #nameTitle {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "titleFont", Arial, Helvetica, sans-serif;
     margin: 0px;
     width: 100%;
     margin-left: 35px;
@@ -37,7 +37,7 @@ header {
 }
 
 #nameTitleColor {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "titleFont", Arial, Helvetica, sans-serif;
     margin: 0px;
     font-size: 2rem;
     font-weight: lighter;
@@ -50,7 +50,7 @@ header {
     margin-left: 35px;
     font-size: 1.1rem;
     color: var(--mainColor);
-    font-family: futura, Arial, Helvetica, sans-serif;
+    font-family: "mainFont", Arial, Helvetica, sans-serif;
 }
 
 #traitSubtitle {
@@ -94,7 +94,7 @@ main {
 .trainingTitle {
     margin: 0px;
     line-height: 30px;
-    font-family: futura, Arial, Helvetica, sans-serif;
+    font-family: "titleFont", Arial, Helvetica, sans-serif;
     font-size: 0.98rem;
     vertical-align: middle;
     margin-left: 10px;
@@ -140,7 +140,7 @@ main {
     margin-left: 10px;
     width: 70px;
     line-height: 15px;
-    font-family: futura, Arial, Helvetica, sans-serif;
+    font-family: "mainFont", Arial, Helvetica, sans-serif;
     color: rgb(121, 109, 109);
 }
 
@@ -156,7 +156,7 @@ main {
 .experienceTitle {
     margin: 0px;
     font-size: 0.78rem;
-    font-family: futura, Arial, Helvetica, sans-serif;
+    font-family: "titleFont", Arial, Helvetica, sans-serif;
     color: rgb(121, 109, 109);
 }
 
@@ -165,15 +165,14 @@ main {
     margin-top: 4px;
     font-size: 0.8rem;
     color: rgb(121, 109, 109);
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: futura, Arial, Helvetica, sans-serif;
+    font-family: "mainFont", Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
 
 .description {
     margin: 0px;
     margin-top: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "paraFont", Arial, Helvetica, sans-serif;
     text-align: justify;
 }
 
@@ -228,7 +227,7 @@ main {
 
 
 #skills {
-    height: 530px;
+    height: 540px;
     width: 100%;
     margin:0px;
 }

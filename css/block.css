@@ -222,36 +222,44 @@ main {
 
 
 #skills {
-    height: 540px;
+    height: 560px;
     width: 100%;
-    margin:0px;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin: 0px;
 }
 
 .skill {
-    margin-top: 6px;
+    margin: 0%;
+    margin-top: 4px;
     font-size: 12px;
 }
 
 .skillTitle {
     font-style: italic;
     margin: 0px;
-    margin-top: 23px;
     margin-left: -25px;
     font-size: 13px;
 }
 
-#hobbiesBlock {
+/* #hobbiesBlock {
     width: 100%;
-    height: 150px;
+    height: 130px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-}
+} */
 
 
 #hobbies {
-    height: 150px;
+    height: 120px;
     width: 100%;
     display: flex;
     align-items: center;

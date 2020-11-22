@@ -248,12 +248,12 @@ ul {
 
 
 #hobbies {
-    height: 140px;
+    height: 142px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .iconHobbies {

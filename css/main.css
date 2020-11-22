@@ -4,16 +4,22 @@
 @font-face {
     font-family: "paraFont";
     src: url("./futura/Futura\ Medium\ Italic\ font.ttf");
+    font-weight: normal;
+    font-style: normal; 
 }
 
 @font-face {
     font-family: "mainFont";
     src: url("./futura/Futura Bold Italic font.ttf");
+    font-weight: normal;
+    font-style: normal; 
 }
 
 @font-face {
     font-family: "titleFont";
     src: url("./futura/Futura\ Heavy\ font.ttf");
+    font-weight: normal;
+    font-style: normal; 
 }
 
 html {

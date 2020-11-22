@@ -33,14 +33,14 @@ header {
     margin-left: 35px;
     margin-top: 35px;
     font-size: 2rem;
-    font-weight: lighter;
+    /* font-weight: lighter; */
 }
 
 #nameTitleColor {
     font-family: "titleFont", Arial, Helvetica, sans-serif;
     margin: 0px;
     font-size: 2rem;
-    font-weight: lighter;
+    /* font-weight: lighter; */
     color: var(--mainColor);
 }
 
@@ -98,7 +98,7 @@ main {
     font-size: 0.98rem;
     vertical-align: middle;
     margin-left: 10px;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
 
 .experienceConteneur {
@@ -166,7 +166,7 @@ main {
     font-size: 0.8rem;
     color: rgb(121, 109, 109);
     font-family: "mainFont", Arial, Helvetica, sans-serif;
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 
 .description {
@@ -221,7 +221,7 @@ main {
 
 .contact {
     text-align: left;
-    font-weight: 600;
+    /* font-weight: 600; */
     margin: 0px;
 }
 

@@ -152,17 +152,18 @@ main {
 
 .experienceTitle {
     margin: 0px;
-    font-size: 0.78rem;
+    margin-top: 4px;
+    font-size: 13px;
     font-family: "titleFont", Arial, Helvetica, sans-serif;
     color: rgb(121, 109, 109);
 }
 
 .experienceSubtitle {
     margin: 0px;
-    margin-top: 4px;
-    font-size: 0.8rem;
+    font-size: 13px;
     color: rgb(121, 109, 109);
-    font-family: "mainFont", Arial, Helvetica, sans-serif;
+    font-family: "titleFont", Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }
 
 .description {
@@ -222,7 +223,7 @@ main {
 
 
 #skills {
-    height: 560px;
+    height: 570px;
     width: 100%;
     margin: 0%;
     display: flex;
@@ -250,7 +251,7 @@ ul {
 
 
 #hobbies {
-    height: 120px;
+    height: 130px;
     width: 100%;
     display: flex;
     align-items: center;

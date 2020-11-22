@@ -82,8 +82,11 @@ h4 {
     font-family: "titleFont", Arial, Helvetica, sans-serif;
 }
 
-ul, li {
-    list-style: dot;
+ul {
     color: white;
+}
+
+li {
+    list-style-type: inherit;
 }
 

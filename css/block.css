@@ -245,16 +245,15 @@ ul {
 
 
 #hobbies {
-    height: 250px;
+    height: 180px;
     width: 100%;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-evenly;
     opacity: 0.9;
 }
 
 .iconHobbies {
-    margin-top: 50px;
     font-size:25px;
     color: white;
     border: 2px solid white;

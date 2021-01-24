@@ -135,7 +135,7 @@ main {
 
 .date {
     margin-left: 10px;
-    width: 70px;
+    width: 90px;
     line-height: 15px;
     font-family: "mainFont", Arial, Helvetica, sans-serif;
     color: rgb(121, 109, 109);
@@ -164,6 +164,21 @@ main {
     margin-top: 4px;
     color: rgb(121, 109, 109);
     font-family: "titleFont", Arial, Helvetica, sans-serif;
+}
+
+.descriptionTitle {
+    text-align: left;
+    margin: 5px;
+    margin-left: -40px;
+}
+
+.descriptionUl {
+    color: rgb(121, 109, 109);
+}
+
+.descriptionItemList {
+    text-align: left;
+
 }
 
 .description {
@@ -217,7 +232,7 @@ main {
 
 
 #skills {
-    height: 560px;
+    height: 490px;
     width: 100%;
     margin: 0%;
     display: flex;
@@ -245,7 +260,7 @@ ul {
 
 
 #hobbies {
-    height: 175px;
+    height: 100px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -263,4 +278,19 @@ ul {
 
 .racketTennis {
     padding: 0.35em;
+}
+
+
+#softSkillsSection {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.personnalSkills {
+    color: white;
 }

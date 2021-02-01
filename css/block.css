@@ -10,11 +10,10 @@ header {
 }
 
 #photoProfil {
-    width: 155px;
-    height: 155px;
-    margin-left: calc((30% - 155px) / 2);
+    width: 160px;
+    height: 160px;
+    margin-left: calc((30% - 160px) / 2);
     border-radius: 50%;
-    box-shadow: 0px 0px 5px 5px rgb(204, 201, 201);
 }
 
 #titleConteneur {
